@@ -1,0 +1,38 @@
+body {
+  background: #FFCC00;
+  font-size: 18px;
+}
+
+h1 {
+  color: purple;
+}
+h1.header {
+  color: blue;
+}
+
+.banner {
+  max-width: 49%;
+}
+
+.facts li {
+  color: blue;
+}
+
+.lies {
+  border: 3px solid red;
+}
+
+li.urgent {
+  color: red;
+}
+
+@media only screen and (max-width: 600px) {
+
+  body {
+    background: blue;
+  }
+  .banner {
+    max-width: 100%;
+  }
+
+}
